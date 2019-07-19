@@ -65,18 +65,19 @@ describe('CoursesService', () => {
         .subscribe((course) => {
             
             expect(course.id).toBe(12);
+        
+        });
 
-            const req = httpTestingController.expectOne('/api/courses/12');
+        const req = httpTestingController.expectOne('/api/courses/12');
 
-            expect(req.request.method).toEqual("PUT");
+        expect(req.request.method).toEqual("PUT");
 
-            expect(req.request.body.titles.description)
-                .toEqual(changes.titles.description);
+        expect(req.request.body.titles.description)
+            .toEqual(changes.titles.description);
 
-            req.flush({
-                ...COURSES[12],
-                ...changes
-            })
+        req.flush({
+            ...COURSES[12],
+            ...changes
         })
     });
 
@@ -95,7 +96,7 @@ describe('CoursesService', () => {
                 expect(error.status).toBe(500);
             })
 
-        const req = httpTestingController.expectOne('/api/course/12');
+        const req = httpTestingController.expectOne('/api/courses/12');
         
         expect(req.request.method).toEqual("PUT");
 
