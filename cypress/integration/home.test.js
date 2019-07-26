@@ -34,4 +34,8 @@ describe('Home Page', () => {
         cy.get('.mat-tab-body-active .mat-card-title').first().should('contain', 'Angular Security Course');
 
     });
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> section-6
