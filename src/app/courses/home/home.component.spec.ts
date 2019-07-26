@@ -1,8 +1,7 @@
-<<<<<<< HEAD
+
 import {async, ComponentFixture, fakeAsync, flush, flushMicrotasks, TestBed, tick} from '@angular/core/testing';
-=======
 import {async, ComponentFixture, fakeAsync, flush, flushMicrotasks, TestBed} from '@angular/core/testing';
->>>>>>> section-6
+import {async, ComponentFixture, fakeAsync, flush, flushMicrotasks, TestBed} from '@angular/core/testing';
 import {CoursesModule} from '../courses.module';
 import {DebugElement} from '@angular/core';
 
@@ -143,4 +142,3 @@ describe('HomeComponent', () => {
   }));
 
 });
-
