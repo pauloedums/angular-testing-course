@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 ## Angular Testing Course
 
@@ -155,7 +154,3 @@ If you are looking for the Complete Typescript 2 Course - Build a REST API, the 
 
 ![Complete Typescript Course](https://angular-academy.s3.amazonaws.com/thumbnails/typescript-2-small.png)
 
-=======
-# angular-testing-course
-Udemy - Angular Testing Course
->>>>>>> refs/remotes/origin/master
